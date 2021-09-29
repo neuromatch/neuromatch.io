@@ -53,11 +53,11 @@ const Footer = () => (
         Terms of Use
       </StyledInternalLink>
       {' | '}
-      <StyledInternalLink to="https://www.neuromatchacademy.org/privacy">
+      <StyledInternalLink to="https://academy.neuromatch.io/about/Privacy">
         Privacy Policy
       </StyledInternalLink>
       {' | '}
-      <StyledInternalLink to="https://www.neuromatchacademy.org/code-of-conduct">
+      <StyledInternalLink to="https://github.com/NeuromatchAcademy/precourse/blob/master/CODE_OF_CONDUCT.md">
         Code of Conduct
       </StyledInternalLink>
       {' | '}
