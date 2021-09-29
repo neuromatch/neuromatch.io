@@ -1,0 +1,67 @@
+{
+  "name": "neuromatch",
+  "private": true,
+  "description": "An machine learning based un-conference for neuroscientists. We use machine learning based technique to arrange the online meeting.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop -p 4000",
+    "serve": "gatsby serve",
+    "gatsby-prod-prefix": "gatsby build --prefix-paths && gatsby serve --prefix-paths",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "pretest": "./node_modules/eslint/bin/eslint.js ./src/**/*.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@reach/router": "^1.3.4",
+    "babel-plugin-styled-components": "^1.13.1",
+    "gatsby": "^2.32.13",
+    "gatsby-plugin-anchor-links": "^1.1.1",
+    "gatsby-plugin-google-analytics": "^2.3.13",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-styled-components": "^3.3.10",
+    "gatsby-plugin-typography": "^2.5.10",
+    "gatsby-source-filesystem": "^2.3.24",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-cookie": "^4.0.3",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "react-markdown": "^4.3.1",
+    "react-medium-image-zoom": "^4.3.4",
+    "react-select": "^3.1.0",
+    "react-spinners": "^0.6.1",
+    "react-svg": "^11.0.34",
+    "react-typography": "^0.16.19",
+    "styled-components": "^4.4.1",
+    "typography": "^0.16.19",
+    "typography-theme-moraga": "^0.16.19"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.9.0",
+    "babel-preset-gatsby": "^0.2.36",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.7.2",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-jest": "^23.20.0",
+    "faker": "^4.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/titipata/neuromatch"
+  },
+  "bugs": {
+    "url": "https://github.com/titipata/neuromatch/issues"
+  }
+}
