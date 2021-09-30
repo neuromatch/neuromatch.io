@@ -27,12 +27,12 @@ const StyledFooterText = styled.div`
   line-height: 1.6em;
 `;
 
-const StyledLink = styled.a.attrs({
-  target: '_blank',
-  rel: 'noopener noreferrer',
-})`
-  color: ${p => p.theme.colors.accent};
-`;
+// const StyledLink = styled.a.attrs({
+//   target: '_blank',
+//   rel: 'noopener noreferrer',
+// })`
+//   color: ${p => p.theme.colors.accent};
+// `;
 
 const StyledInternalLink = styled(Link)`
   color: ${p => p.theme.colors.accent};
