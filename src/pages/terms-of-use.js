@@ -33,7 +33,7 @@ export default () => (
       <p>
         Please read it carefully before signing up for the conference. If you
         have further question please contact the conference organizers at
-        <code>&nbsp;info@neuromatch.io</code>
+        <code>&nbsp;nmc@neuromatch.io</code>
         .
       </p>
 
