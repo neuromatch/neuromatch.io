@@ -64,10 +64,6 @@ const Footer = () => (
       <StyledInternalLink to="https://twitter.com/neuromatch">
         Twitter
       </StyledInternalLink>
-      {' | Contact: '}
-      <StyledInternalLink to="mailto:info@neuromatch.io">
-        info@neuromatch.io
-      </StyledInternalLink>
     </StyledFooterText>
   </StyledFooter>
 );
