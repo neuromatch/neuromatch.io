@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import CommonPageStyles from '../components/BaseComponents/CommonPageStyles';
-import Layout from '../components/layout';
+import React from "react";
+import styled from "styled-components";
+import CommonPageStyles from "../components/BaseComponents/CommonPageStyles";
+import Layout from "../components/layout";
 
 const BrandFont = styled.span`
   font-weight: bold;
@@ -27,14 +27,14 @@ export default () => (
         conference, we try to collect minimal data that we need for our matching
         algorithm and for public communication. The data will not be shared
         elsewhere outside of the organizations but may be summarized for public
-        communication or publications. The collected data can be used for research
-        purpose but may also be shared in any other form during or after the conference.
+        communication or publications. The collected data can be used for
+        research purpose but may also be shared in any other form during or
+        after the conference.
       </p>
       <p>
         Please read it carefully before signing up for the conference. If you
         have further question please contact the conference organizers at
-        <code>&nbsp;nmc@neuromatch.io</code>
-        .
+        <code>&nbsp;nmc@neuromatch.io</code>.
       </p>
 
       <ol>
