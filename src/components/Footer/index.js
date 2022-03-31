@@ -1,12 +1,13 @@
-import { Link } from 'gatsby';
-import React from 'react';
-import styled from 'styled-components';
-import { media } from '../../styles';
-import { color } from '../../utils';
+import { Link } from "gatsby";
+import React from "react";
+import styled from "styled-components";
+import { media } from "../../styles";
+import { color } from "../../utils";
 
 const StyledFooter = styled.div`
   height: 5.5em;
-  background-color: ${p => color.scale(p.theme.colors.primary, p.theme.colors.factor * 7)};
+  background-color: ${p =>
+    color.scale(p.theme.colors.primary, p.theme.colors.factor * 7)};
 
   display: flex;
   align-items: center;
@@ -49,24 +50,18 @@ const Footer = () => (
       <Red>&nbsp;❤&nbsp;</Red>
       by Neuromatch
       <br />
-      <StyledInternalLink to="/terms-of-use">
-        Terms of Use
-      </StyledInternalLink>
-      {' | '}
+      <StyledInternalLink to="/terms-of-use">Terms of Use</StyledInternalLink>
+      {" | "}
       <StyledInternalLink to="https://academy.neuromatch.io/about/Privacy">
         Privacy Policy
       </StyledInternalLink>
-      {' | '}
+      {" | "}
       <StyledInternalLink to="https://github.com/NeuromatchAcademy/precourse/blob/master/CODE_OF_CONDUCT.md">
         Code of Conduct
       </StyledInternalLink>
-      {' | '}
+      {" | "}
       <StyledInternalLink to="https://twitter.com/neuromatch">
         Twitter
-      </StyledInternalLink>
-      {' | Contact: '}
-      <StyledInternalLink to="mailto:info@neuromatch.io">
-        info@neuromatch.io
       </StyledInternalLink>
     </StyledFooterText>
   </StyledFooter>

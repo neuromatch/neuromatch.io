@@ -84,52 +84,6 @@ export default () => {
         </section>
       </MainBlock>
       <hr />
-      <MainBlock>
-        <h2>History</h2>
-        <p>
-          Our first success was NMC1 held online on March 30-31st, 2020 which
-          brought together nearly 3,000 attendees from around the world as part
-          of 120 talks given by both senior and junior scientists. Reflecting
-          our core philosophy of building connections and community we matched
-          over 500 participants to 6 other partners each, based on interests
-          gleaned from natural language processing of submitted abstracts. A
-          follow up conference, NMC2 was held May 25–27 2020 which attracted
-          nearly 4,000 participants and offered new forms of interaction between
-          attendees.
-        </p>
-        <p>
-          In July 2020 we organized a three-week-long online summer school for
-          July 13-31, 2020 in response to the current Covid-19 crisis which has
-          shut down nearly every summer program in the world at which students,
-          postdocs and faculty would normally gather to acquire crucial skills
-          and build networks that are the lifeblood of academic science. This
-          crisis left an enormous hole in the career prospects of our most
-          valuable and vulnerable scientists.
-        </p>
-        <p>
-          In November 2020, we held NMC3, which attracted thousands of attendees
-          across all areas of neuroscience.
-        </p>
-      </MainBlock>
-      <hr />
-      <MainBlock>
-        <h2>Previous and Future Events</h2>
-        <ul>
-          <li>NMAcore · July 2021: the core 3-week NMA curriculum</li>
-          <li>
-            NMAminis · July 2021: half- or full-day workshops on targeted
-            neuroscience-related topics
-          </li>
-          <li>
-            NMA deep learning (NMA-DL) · August 2021: a deep learning curriculum
-            for 3 weeks
-          </li>
-          <li>
-            NMC 4.0 · December 1-2, 2021: a conference in computational
-            neuroscience
-          </li>
-        </ul>
-      </MainBlock>
     </Layout>
   );
 };
