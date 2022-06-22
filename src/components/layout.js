@@ -59,7 +59,7 @@ const Layout = ({
             dropdown: [
               {
                 text: 'Finances',
-                onClick: 'https://academy.neuromatch.io/about/our-finances',
+                onClick: 'https://academy.neuromatch.io/our-support/finances',
               },
               {
                 text: 'About NMA',
