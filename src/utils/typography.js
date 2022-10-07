@@ -2,17 +2,17 @@ import Typography from 'typography';
 import moragaTheme from 'typography-theme-moraga';
 
 // override those of theme
-moragaTheme.headerFontFamily = ['Nunito'];
-moragaTheme.bodyFontFamily = ['Open Sans'];
+moragaTheme.headerFontFamily = ['Rubik'];
+moragaTheme.bodyFontFamily = ['Rubik'];
 moragaTheme.googleFonts = [
   {
-    name: 'Nunito',
+    name: 'Rubik',
     styles: [
       300, 400, 600,
     ],
   },
   {
-    name: 'Open Sans',
+    name: 'Rubik',
     styles: [
       300, 400, 600,
     ],
