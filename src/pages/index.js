@@ -26,6 +26,7 @@ const MainBlock = styled.section`
 
 const TitleHeading = styled.h1`
   font-size: 72px;
+  font-weight: bold;
 
   /* scale according to screen width */
   ${media.extraSmall`
