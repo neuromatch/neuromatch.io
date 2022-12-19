@@ -65,8 +65,8 @@ export default () => {
         <TitleHeading>neuromatch</TitleHeading>
         <section>
           <p>
-            Neuromatch is a 501c3 not-for-profit organization in the United
-            States. We are an online community of computational neuroscientists
+            Neuromatch is a worldwide not-for-profit organization registered in the United
+            States (501c3). We are an online community of computational neuroscientists
             whose mission is to foster inclusive global interactions for
             learning, mentorship, networking, and professional development.
           </p>
