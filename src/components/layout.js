@@ -79,7 +79,7 @@ const Layout = ({
               },
               {
                 text: "Partners",
-                onClick: ""
+                onClick: "/donate/partners"
               }
             ],
           },
