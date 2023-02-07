@@ -42,48 +42,112 @@ const Layout = ({
       <NavBar
         menuItems={[
           {
-            text: 'Organizations',
+            text: "About",
             dropdown: [
               {
-                text: 'NMA',
-                onClick: 'https://academy.neuromatch.io/',
+                text: "Mission",
+                onClick: ""
               },
               {
-                text: 'NMC',
-                onClick: 'https://conference.neuromatch.io/',
+                text: "People",
+                onClick: ""
+              },
+              {
+                text: "Press",
+                onClick: ""
+              },
+              {
+                text: "Newsletter",
+                onClick: ""
+              },
+              {
+                text: "Finances",
+                onClick: ""
+              },
+              {
+                text: "Policies",
+                onClick: ""
               },
             ],
           },
           {
-            text: 'About',
+            text: "Donate",
             dropdown: [
               {
-                text: 'Finances',
-                onClick: 'https://academy.neuromatch.io/our-support/finances',
+                text: "Give",
+                onClick: ""
               },
               {
-                text: 'About NMA',
-                onClick: 'https://academy.neuromatch.io/about/mission',
-              },
-              {
-                text: 'About NMC',
-                onClick: 'https://conference.neuromatch.io/about',
-              },
+                text: "Partners",
+                onClick: ""
+              }
             ],
           },
           {
-            text: 'FAQ',
+            text: "Join",
             dropdown: [
               {
-                text: 'NMA FAQ',
-                onClick: 'https://academy.neuromatch.io/faq',
+                text: "Careers",
+                onClick: ""
               },
               {
-                text: 'NMC FAQ',
-                onClick: 'https://conference.neuromatch.io/faq',
-              },
+                text: "Volunteering",
+                onClick: ""
+              }
             ],
           },
+          {
+            text: "Resources",
+            dropdown: [
+              {
+                text: "Job Board",
+                onClick: ""
+              }
+            ],
+          },
+//          {
+//            text: 'Organizations',
+//            dropdown: [
+//              {
+//                text: 'NMA',
+//                onClick: 'https://academy.neuromatch.io/',
+//              },
+//              {
+//                text: 'NMC',
+//                onClick: 'https://conference.neuromatch.io/',
+//              },
+//            ],
+//          },
+//          {
+//            text: 'About',
+//            dropdown: [
+//              {
+//                text: 'Finances',
+//                onClick: 'https://academy.neuromatch.io/our-support/finances',
+//              },
+//              {
+//                text: 'About NMA',
+//                onClick: 'https://academy.neuromatch.io/about/mission',
+//              },
+//              {
+//                text: 'About NMC',
+//                onClick: 'https://conference.neuromatch.io/about',
+//              },
+//            ],
+//          },
+//          {
+//            text: 'FAQ',
+//            dropdown: [
+//              {
+//                text: 'NMA FAQ',
+//                onClick: 'https://academy.neuromatch.io/faq',
+//              },
+//              {
+//                text: 'NMC FAQ',
+//                onClick: 'https://conference.neuromatch.io/faq',
+//              },
+//            ],
+//          },
         ]}
       />
 

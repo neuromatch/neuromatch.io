@@ -25,7 +25,7 @@ const MainBlock = styled.section`
 `;
 
 const TitleHeading = styled.h1`
-  font-size: 72px;
+  font-size: 76px;
   font-weight: bold;
 
   /* scale according to screen width */
@@ -33,6 +33,17 @@ const TitleHeading = styled.h1`
     font-size: 16vw;
   `}
 `;
+
+const SubHeading = styled.h2`
+  font-size: 30px;
+  margin-bottom: 4rem;
+
+  /* scale according to screen width */
+  ${media.extraSmall`
+    font-size: 10vw;
+  `}
+`;
+
 
 const TopicHeading = ({ children }) => <b>{`${children} · `}</b>;
 
@@ -63,17 +74,30 @@ export default () => {
     <Layout>
       <MainBlock>
         <TitleHeading>neuromatch</TitleHeading>
+        <SubHeading>Democratizing Science - Connecting People</SubHeading>
         <section>
           <p>
-            Neuromatch is a worldwide not-for-profit organization registered in the United
-            States (501c3). We are an online community of computational neuroscientists
-            whose mission is to foster inclusive global interactions for
-            learning, mentorship, networking, and professional development.
+            Neuromatch is a worldwide non-profit movement with the goal of equitable participation in scientific research. We run several activities to help further our cause.
           </p>
           <p>
-            We run 2 organizations within Neuromatch: Neuromatch Academy
-            (academy.neuromatch.io) and Neuromatch Conference
-            (conference.neuromatch.io)
+            We started in neuroscience, and we are branching to other domains, starting with climate science.
+          </p>
+          <p>What we do:</p>
+          <h3>Academy</h3>
+          <p>
+            Providing open-source teaching materials and courses with live instruction classrooms.
+          </p>
+          <h3>Community</h3>
+          <p>
+            Connecting scientists to form the social network needed to succeed in conducting and sharing research.
+          </p>
+          <h3>NMDA</h3>
+          <p>
+          Matching people with research, career, and collaboration opportunities.
+          </p>
+          <h3>Open Publishing</h3>
+          <p>
+          Reimagining scientific publishing as an equitable system.
           </p>
           <LogosArray>
             {logos.map(x => (
