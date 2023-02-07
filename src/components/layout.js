@@ -46,7 +46,7 @@ const Layout = ({
             dropdown: [
               {
                 text: "Mission",
-                onClick: ""
+                onClick: "/about/mission"
               },
               {
                 text: "People",
