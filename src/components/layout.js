@@ -101,7 +101,7 @@ const Layout = ({
             dropdown: [
               {
                 text: "Job Board",
-                onClick: ""
+                onClick: "/resources/job-board"
               }
             ],
           },
