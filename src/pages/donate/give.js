@@ -50,7 +50,9 @@ export default () => {
             If you would like to meet with our team to learn about what impact your donations can make, schedule a meeting here: (Link to donor calendly page).
           </p>
           <h3>Volunteering</h3>
-
+          <p>
+            Neuromatch is built with loving care by a large team of volunteers from all over the world.  You can express your interest in helping us by filling out this <a href="https://airtable.com/shrlo3trJbLCvqPmA" target="_blank" rel="noreferrer">form</a>. Thank you!
+          </p>
         </section>
       </MainBlock>
       <hr />

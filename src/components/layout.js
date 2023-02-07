@@ -88,11 +88,11 @@ const Layout = ({
             dropdown: [
               {
                 text: "Careers",
-                onClick: ""
+                onClick: "/join/careers"
               },
               {
                 text: "Volunteering",
-                onClick: ""
+                onClick: "/join/volunteering"
               }
             ],
           },
