@@ -30,7 +30,7 @@ const TitleHeading = styled.h1`
 
   /* scale according to screen width */
   ${media.extraSmall`
-    font-size: 16vw;
+    font-size: 14.5vw;
   `}
 `;
 
@@ -40,7 +40,7 @@ const SubHeading = styled.h2`
 
   /* scale according to screen width */
   ${media.extraSmall`
-    font-size: 10vw;
+    font-size: 6vw;
   `}
 `;
 
