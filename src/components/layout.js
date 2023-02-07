@@ -75,7 +75,7 @@ const Layout = ({
             dropdown: [
               {
                 text: "Give",
-                onClick: ""
+                onClick: "/donate/give"
               },
               {
                 text: "Partners",
