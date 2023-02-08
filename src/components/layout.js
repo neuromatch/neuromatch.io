@@ -66,7 +66,7 @@ const Layout = ({
               },
               {
                 text: "Policies",
-                onClick: ""
+                onClick: "/about/policies"
               },
             ],
           },
