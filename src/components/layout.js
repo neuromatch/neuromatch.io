@@ -50,7 +50,7 @@ const Layout = ({
               },
               {
                 text: "People",
-                onClick: ""
+                onClick: "/coming-soon"
               },
               {
                 text: "Press",
@@ -58,7 +58,7 @@ const Layout = ({
               },
               {
                 text: "Newsletter",
-                onClick: ""
+                onClick: "/coming-soon"
               },
               {
                 text: "Finances",
