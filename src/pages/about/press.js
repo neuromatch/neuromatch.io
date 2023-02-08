@@ -55,7 +55,7 @@ export default () => {
               <li> <a target="_blank" rel="noreferrer" class="external text" href="https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(21)00074-0/fulltext">Lancet article: "Computational neuroscience with global accessibility"</a></li>
               <li> <a target="_blank" rel="noreferrer" class="external text" href="https://www.superdatascience.com/podcast/learning-deep-learning-together">SuperDataScience interview of Konrad</a> for NMA 2021</li>
               <li> <a target="_blank" rel="noreferrer" class="external text" href="https://xcorr.net/2021/03/25/building-neuromatch-academy/">Building NMA</a> by Patrick Mineault</li>
-              <li> <a target="_blank" rel="noreferrer" class="external text" href="https://gunnarblohm.medium.com/neuromatch-academy-the-story-cdaec59c430e">NMA The story</a> - by Gunnar</li>
+              <li> <a target="_blank" rel="noreferrer" class="external text" href="https://gunnarblohm.medium.com/neuromatch-academy-the-story-cdaec59c430e">NMA The story</a> by Gunnar</li>
               <li> <a target="_blank" rel="noreferrer" class="external text" href="https://healthsci.queensu.ca/stories/feature/neuromatch-academy-changing-landscape-computational-neuroscience-education">Queen's FHS feature story about NMA</a></li>
               <li> <a target="_blank" rel="noreferrer" class="external text" href="https://braininspired.co/podcast/nma-1/">Brain Inspired podcast 1</a> - Machine Learning</li>
               <li> <a target="_blank" rel="noreferrer" class="external text" href="https://braininspired.co/podcast/nma-2/">Brain Inspired podcast 2</a> - Dynamical Systems</li>
