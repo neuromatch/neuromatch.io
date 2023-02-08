@@ -54,7 +54,7 @@ const Layout = ({
               },
               {
                 text: "Press",
-                onClick: ""
+                onClick: "/about/press"
               },
               {
                 text: "Newsletter",
@@ -105,49 +105,6 @@ const Layout = ({
               }
             ],
           },
-//          {
-//            text: 'Organizations',
-//            dropdown: [
-//              {
-//                text: 'NMA',
-//                onClick: 'https://academy.neuromatch.io/',
-//              },
-//              {
-//                text: 'NMC',
-//                onClick: 'https://conference.neuromatch.io/',
-//              },
-//            ],
-//          },
-//          {
-//            text: 'About',
-//            dropdown: [
-//              {
-//                text: 'Finances',
-//                onClick: 'https://academy.neuromatch.io/our-support/finances',
-//              },
-//              {
-//                text: 'About NMA',
-//                onClick: 'https://academy.neuromatch.io/about/mission',
-//              },
-//              {
-//                text: 'About NMC',
-//                onClick: 'https://conference.neuromatch.io/about',
-//              },
-//            ],
-//          },
-//          {
-//            text: 'FAQ',
-//            dropdown: [
-//              {
-//                text: 'NMA FAQ',
-//                onClick: 'https://academy.neuromatch.io/faq',
-//              },
-//              {
-//                text: 'NMC FAQ',
-//                onClick: 'https://conference.neuromatch.io/faq',
-//              },
-//            ],
-//          },
         ]}
       />
 

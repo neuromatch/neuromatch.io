@@ -39,7 +39,7 @@ export default () => {
           <p>
             An index of all of our policies and governance documents.
           </p>
-          <h4>Documents:</h4>
+          <h4>Documents</h4>
           <ul>
             <li>AR Bylaws - <a
           href="https://drive.google.com/file/d/1m8S6Zgz2YooNiF4plVLNnp5RGKoNVfnH/view?usp=share_link" target="_blank" rel="noreferrer">click
