@@ -3,6 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import Layout from "../../components/layout";
 import { media } from "../../styles";
+import { useThemeContext } from "../../styles/themeContext";
 
 
 // -- COMPONENTS
@@ -29,8 +30,33 @@ const MyBtn = styled.button`
     font-size: 1.2vw;
     border-radius: 8px;
     margin-bottom: 2rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(50,50,50,1);
+    }
 `;
 
+const MyBtn2 = styled.button`
+    background-color: rgba(238,238,238,1);
+    border-color: rgba(238,238,238,1);
+    color: rgba(34,34,34,1);
+    width: 20%;
+    line-height: 1.5;
+    font-size: 1.2vw;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(220,220,220,1);
+    }
+`;
+
+const btns = {
+  light: <MyBtn>Submit a job</MyBtn>,
+  dark: <MyBtn2>Submit a job</MyBtn2>
+};
 
 const TopicHeading = ({ children }) => <b>{`${children} · `}</b>;
 
@@ -41,6 +67,7 @@ TopicHeading.propTypes = {
 
 // -- MAIN
 export default () => {
+  const { theme } = useThemeContext();
 
   return (
     <Layout>
@@ -50,7 +77,7 @@ export default () => {
           <p>
             Neuromatch is about connecting people. Let’s connect you to your next career opportunity.
           </p>
-          <a href="https://airtable.com/shrhech6b8SCjmMTT" target="_blank" rel="noreferrer"><MyBtn>Submit a job</MyBtn></a>
+         <a href="https://airtable.com/shrhech6b8SCjmMTT" target="_blank" rel="noreferrer">{btns[theme.toLowerCase()]}</a>
             <iframe title="job-board" class="airtable-embed" src="https://airtable.com/embed/shrlSuIKkDV6ks268?backgroundColor=red&amp;viewControls=on" frameborder="0" onmousewheel="" width="100%" height="600" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
 
         </section>
