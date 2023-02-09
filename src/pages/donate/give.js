@@ -44,10 +44,10 @@ export default () => {
           </p>
           <h3>Financial Support</h3>
           <p>
-            You can give directly via this form (link to Stripe donation form) or this form (bitpay link). We also  work with Donor Advised Funds. We partner with <a href="https://www.fidelitycharitable.org/" target="_blank" rel="noreferrer">Fidelity Charitable</a> for this.
+            You can give directly via Every.org <a href="https://www.every.org/neuromatch?utmCampaign=donate-link#/donate" target="_blank" rel="noreferrer">here</a>. We also  work with Donor Advised Funds. We partner with <a href="https://www.fidelitycharitable.org/" target="_blank" rel="noreferrer">Fidelity Charitable</a> for this.
           </p>
           <p>
-            If you would like to meet with our team to learn about what impact your donations can make, schedule a meeting here: (Link to donor calendly page).
+            If you would like to meet with our team to learn about what impact your donations can make, schedule a meeting <a href="https://calendly.com/neuromatch-giving-team/learn-about-neuromatch" target="_blank" rel="noreferrer">here</a>.
           </p>
           <h3>Volunteering</h3>
           <p>
