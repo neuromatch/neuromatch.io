@@ -42,7 +42,6 @@ export default () => {
           <h4>Links</h4>
             <ul>
               <li> <a target="_blank" rel="noreferrer" class="external text" href="https://incf.org/blog/neuromatch-academy-online-computational-neuroscience-training-event">INCF hosting of NMA</a></li>
-              <li> <a target="_blank" rel="noreferrer" class="external text" href="https://twitter.com/neuromatch?lang=en">Neuromatch Twitter account</a></li>
               <li> <a target="_blank" rel="noreferrer" class="external text" href="https://www.nature.com/articles/s42256-020-0182-5.pdf?origin=ppub">Nature Machine Intelligence editorial</a></li>
               <li> <a target="_blank" rel="noreferrer" class="external text" href="https://www.nature.com/articles/d41586-020-02347-9">Nature story about NMA overcoming Iran sanctions</a></li>
               <li> <a target="_blank" rel="noreferrer" class="external text" href="https://medium.com/@yeditepe.cogsci/neuromatch-academy-experience-837e8a1c153f">Neuromatch Academy Experience</a> - a Medium article written by interactive track students</li>

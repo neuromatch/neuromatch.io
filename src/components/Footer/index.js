@@ -81,7 +81,7 @@ const Footer = () => (
       </a>
       {" | "}
       <a target="_blank" rel="noreferrer" href="https://neuromatch.myspreadshop.net/">
-        Rest of Work Merchandise Store
+        Rest of World Merchandise Store
       </a>
       <br />
       </StyledFooterText>
