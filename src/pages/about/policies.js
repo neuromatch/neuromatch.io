@@ -53,12 +53,6 @@ export default () => {
           <li>Donation and Gift Acceptance - <a
           href="https://drive.google.com/file/d/1ZILc4lB2JE3Z6V2nhW78nx3EvzFiLyzA/view?usp=share_link" target="_blank" rel="noreferrer">click
           here</a></li>
-          <li>Final 2021 Form 990 Signed - <a
-          href="https://drive.google.com/file/d/16wOi1VcWX7lSm5HAHnpV9wnqnIWpFs1v/view?usp=share_link" target="_blank" rel="noreferrer">click
-          here</a></li>
-          <li>Final 2020 Form 990 pg1 - <a
-          href="https://drive.google.com/file/d/1z7Av_FLmZAD-JvdpAIp8b1Fi5cbVSMuC/view?usp=share_link" target="_blank" rel="noreferrer">click
-          here</a></li>
           <li>Neuromatch Code of Conduct - <a
           href="https://drive.google.com/file/d/1uogBszCuY2BzPmb7S5A2TaXeIgZz6bB-/view?usp=share_link" target="_blank" rel="noreferrer">click
           here</a></li>
