@@ -1,11 +1,12 @@
-import { Link } from "gatsby";
+//import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
 import { media } from "../../styles";
 import { color } from "../../utils";
 
+
 const StyledFooter = styled.div`
-  height: 5.5em;
+  height: 5.5rem;
   background-color: ${p =>
     color.scale(p.theme.colors.primary, p.theme.colors.factor * 7)};
 
@@ -18,7 +19,7 @@ const StyledFooter = styled.div`
     height: 6.5em;
   `}
 
-  padding: 0 15px;
+  padding: 7rem auto;
 `;
 
 const StyledFooterText = styled.div`
@@ -28,16 +29,17 @@ const StyledFooterText = styled.div`
   line-height: 1.6em;
 `;
 
-// const StyledLink = styled.a.attrs({
-//   target: '_blank',
-//   rel: 'noopener noreferrer',
-// })`
-//   color: ${p => p.theme.colors.accent};
-// `;
+//const StyledLink = styled.a.attrs({
+//  target: '_blank',
+//  rel: 'noreferrer',
+//})`
+//  color: ${p => p.theme.colors.accent};
+//  cursor: pointer;
+//`;
 
-const StyledInternalLink = styled(Link)`
-  color: ${p => p.theme.colors.accent};
-`;
+//const StyledInternalLink = styled(Link)`
+//  color: ${p => p.theme.colors.accent};
+//`;
 
 const Red = styled.span`
   color: ${p => p.theme.colors.danger};
@@ -46,24 +48,43 @@ const Red = styled.span`
 const Footer = () => (
   <StyledFooter>
     <StyledFooterText>
+      <a target="_blank" rel="noreferrer" href="https://github.com/neuromatch">
+        Github
+      </a>
+      {" | "}
+      <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/neuromatch">
+        LinkedIn
+      </a>
+      {" | "}
+      <a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UC4LoD4yNBuLKQwDOV6t-KPw">
+        YouTube
+      </a>
+      {" | "}
+      <a target="_blank" rel="noreferrer" href="https://twitter.com/neuromatch?lang=en">
+        Twitter
+      </a>
+      {" | "}
+      <a target="_blank" rel="noreferrer" href="https://www.facebook.com/Neuromatch/">
+        Facebook
+      </a>
+      {" | "}
+      <a target="_blank" rel="noreferrer" href="https://www.instagram.com/neuromatch/">
+        Instagram
+      </a>
+      <br />
       Made with
       <Red>&nbsp;❤&nbsp;</Red>
       by Neuromatch
       <br />
-      <StyledInternalLink to="/terms-of-use">Terms of Use</StyledInternalLink>
+      <a target="_blank" rel="noreferrer" href="https://neuromatch.myspreadshop.com/">
+        US Merchandise Store
+      </a>
       {" | "}
-      <StyledInternalLink to="https://academy.neuromatch.io/about/Privacy">
-        Privacy Policy
-      </StyledInternalLink>
-      {" | "}
-      <StyledInternalLink to="https://github.com/NeuromatchAcademy/precourse/blob/master/CODE_OF_CONDUCT.md">
-        Code of Conduct
-      </StyledInternalLink>
-      {" | "}
-      <StyledInternalLink to="https://twitter.com/neuromatch">
-        Twitter
-      </StyledInternalLink>
-    </StyledFooterText>
+      <a target="_blank" rel="noreferrer" href="https://neuromatch.myspreadshop.net/">
+        Rest of Work Merchandise Store
+      </a>
+      <br />
+      </StyledFooterText>
   </StyledFooter>
 );
 

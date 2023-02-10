@@ -42,46 +42,67 @@ const Layout = ({
       <NavBar
         menuItems={[
           {
-            text: 'Organizations',
+            text: "About",
             dropdown: [
               {
-                text: 'NMA',
-                onClick: 'https://academy.neuromatch.io/',
+                text: "Mission",
+                onClick: "/about/mission"
               },
               {
-                text: 'NMC',
-                onClick: 'https://conference.neuromatch.io/',
+                text: "People",
+                onClick: "/coming-soon"
+              },
+              {
+                text: "Press",
+                onClick: "/about/press"
+              },
+              {
+                text: "Newsletter",
+                onClick: "/coming-soon"
+              },
+              {
+                text: "Finances",
+                onClick: "/about/finances"
+              },
+              {
+                text: "Policies",
+                onClick: "/about/policies"
               },
             ],
           },
           {
-            text: 'About',
+            text: "Donate",
             dropdown: [
               {
-                text: 'Finances',
-                onClick: 'https://academy.neuromatch.io/our-support/finances',
+                text: "Give",
+                onClick: "/donate/give"
               },
               {
-                text: 'About NMA',
-                onClick: 'https://academy.neuromatch.io/about/mission',
-              },
-              {
-                text: 'About NMC',
-                onClick: 'https://conference.neuromatch.io/about',
-              },
+                text: "Partners",
+                onClick: "/donate/partners"
+              }
             ],
           },
           {
-            text: 'FAQ',
+            text: "Join",
             dropdown: [
               {
-                text: 'NMA FAQ',
-                onClick: 'https://academy.neuromatch.io/faq',
+                text: "Careers",
+                onClick: "/join/careers"
               },
               {
-                text: 'NMC FAQ',
-                onClick: 'https://conference.neuromatch.io/faq',
-              },
+                text: "Volunteering",
+                onClick: "/join/volunteering"
+              }
+            ],
+          },
+          {
+            text: "Resources",
+            dropdown: [
+              {
+                text: "Job Board",
+                onClick: "/resources/job-board"
+              }
             ],
           },
         ]}
