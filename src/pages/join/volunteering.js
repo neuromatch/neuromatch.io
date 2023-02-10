@@ -16,7 +16,7 @@ const TitleHeading = styled.h1`
 
   /* scale according to screen width */
   ${media.extraSmall`
-    font-size: 16vw;
+    font-size: 13vw;
   `}
 `;
 
