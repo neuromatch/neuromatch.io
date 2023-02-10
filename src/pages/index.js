@@ -104,7 +104,7 @@ export default () => {
           <h3><H3Link href="https://academy.neuromatch.io/" target="_blank"
           rel="noreferrer">Academy</H3Link></h3>
           <p>
-            Providing open-source teaching materials and courses with live instruction classrooms.
+            Providing open-source teaching materials and courses with live instruction classrooms for neuro and <a href="https://academy.climatematch.io/" target="_blank" rel="noreferrer">climate</a> science.
           </p>
           <h3><H3Link href="https://conference.neuromatch.io/" target="_blank"
           rel="noreferrer">Community</H3Link></h3>
