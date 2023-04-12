@@ -31,11 +31,23 @@ TopicHeading.propTypes = {
 // -- MAIN
 export default () => {
 
+  // Create a button element
+  const applyButton = document.createElement("button");
+
+  // Set the button text
+  applyButton.textContent = "Apply here for open volunteering positions";
+
+  // Set the button link
+  applyButton.onclick = function() {
+    window.location.href = "https://airtable.com/shrlo3trJbLCvqPmA";
+  };
+
   return (
     <Layout>
       <MainBlock>
         <TitleHeading>Volunteering</TitleHeading>
         <section>
+          {applyButton}
           <iframe title="volunteering-airtable" src="https://airtable.com/embed/shrFkKfMXPJBgbxtX?backgroundColor=green&amp;viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: 'transparent', border: '1px solid #ccc'}}></iframe>
         </section>
       </MainBlock>
