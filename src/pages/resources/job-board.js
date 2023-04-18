@@ -35,6 +35,11 @@ const MyBtn = styled.button`
     &:hover {
       background-color: rgba(50,50,50,1);
     }
+
+    @media (max-width: 768px) {
+      width: 80%;
+      font-size: 4vw;
+    }
 `;
 
 const MyBtn2 = styled.button`
@@ -50,6 +55,11 @@ const MyBtn2 = styled.button`
 
     &:hover {
       background-color: rgba(220,220,220,1);
+    }
+
+    @media (max-width: 768px) {
+      width: 80%;
+      font-size: 4vw;
     }
 `;
 

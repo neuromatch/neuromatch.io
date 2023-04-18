@@ -35,6 +35,11 @@ const MyBtn = styled.button`
     &:hover {
       background-color: rgba(50,50,50,1);
     }
+
+    @media (max-width: 768px) {
+      width: 80%;
+      font-size: 4vw;
+    }
 `;
 
 const MyBtn2 = styled.button`
@@ -51,11 +56,16 @@ const MyBtn2 = styled.button`
     &:hover {
       background-color: rgba(220,220,220,1);
     }
+
+    @media (max-width: 768px) {
+      width: 80%;
+      font-size: 4vw;
+    }
 `;
 
 const btns = {
-  light: <MyBtn>Submit a volunteer position</MyBtn>,
-  dark: <MyBtn2>Submit a volunteer position</MyBtn2>
+  light: <MyBtn>Apply for a volunteer position</MyBtn>,
+  dark: <MyBtn2>Apply for a volunteer position</MyBtn2>
 };
 
 
@@ -74,8 +84,14 @@ export default () => {
     <Layout>
       <MainBlock>
         <TitleHeading>Volunteering</TitleHeading>
-        <section>
+        <section> 
+          <p>
+            Neuromatch is built by a large team of volunteers from all over the world. Join our team today and make a difference!
+          </p>
+          <p> Check the open positions below and click the button to apply!</p>
           <a href="https://airtable.com/shrlo3trJbLCvqPmA" target="_blank" rel="noreferrer">{btns[theme.toLowerCase()]}</a>
+          
+          <h2><b>Open Positions:</b></h2>
           <iframe title="volunteering-airtable" src="https://airtable.com/embed/shrFkKfMXPJBgbxtX?backgroundColor=green&amp;viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: 'transparent', border: '1px solid #ccc'}}></iframe>
         </section>
       </MainBlock>
