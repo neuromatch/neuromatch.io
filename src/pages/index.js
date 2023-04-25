@@ -85,7 +85,7 @@ TopicHeading.propTypes = {
 //`;
 
 // -- MAIN
-export default () => {
+const Index = () => {
 //  const { theme } = useThemeContext();
 
   return (
@@ -127,6 +127,8 @@ export default () => {
     </Layout>
   );
 };
+
+export default Index;
 
 //          <LogosArray>
 //            {logos.map(x => (

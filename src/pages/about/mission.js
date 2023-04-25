@@ -29,7 +29,7 @@ TopicHeading.propTypes = {
 
 
 // -- MAIN
-export default () => {
+const Mission = () => {
 
   return (
     <Layout>
@@ -51,3 +51,5 @@ export default () => {
     </Layout>
   );
 };
+
+export default Mission;

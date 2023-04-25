@@ -7,7 +7,7 @@ const Container = styled.div`
   text-align: center;
 `;
 
-export default () => (
+const Error = () => (
   <Layout>
     <Container>
       <h1>
@@ -19,3 +19,4 @@ export default () => (
     </Container>
   </Layout>
 );
+export default Error;

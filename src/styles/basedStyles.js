@@ -65,9 +65,10 @@ const scrollStyle = css`
   }
 `;
 
-export default {
+ const BasedStyle ={
   interxEffect,
   noInterxEffect,
   buttonStyle,
   scrollStyle,
 };
+export default BasedStyle;

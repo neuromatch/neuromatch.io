@@ -18,7 +18,8 @@ const saveFormatToOptions = (val) => {
   return { value: val, label: val };
 };
 
-export default {
+ const ReactSelectShape ={
   optionsToSaveFormat,
   saveFormatToOptions,
 };
+export default ReactSelectShape;

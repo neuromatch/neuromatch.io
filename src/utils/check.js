@@ -1,5 +1,5 @@
 // https://github.com/jasonsalzman/react-add-to-calendar/blob/master/src/helpers/index.js#L97-L114
-const isMobile = () => {
+const IsMobile = () => {
   const testAgent = window.navigator.userAgent || window.navigator.vendor || window.opera;
   /* eslint-disable */
   const pattern1 = /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i;
@@ -15,4 +15,4 @@ const isMobile = () => {
   return mobile;
 };
 
-export default { isMobile };
+export default IsMobile ;

@@ -7,7 +7,7 @@ const Container = styled.div`
   text-align: center;
 `;
 
-export default () => {
+const Conference = () => {
   const [canRedirect, setCanRedirect] = useState(true)
 
   useEffect(() => {
@@ -38,3 +38,5 @@ export default () => {
 
   return null
 };
+
+export default Conference;

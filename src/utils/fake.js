@@ -56,10 +56,11 @@ function generateFakeMatches(numOfMatches) {
   };
 }
 
-export default {
+ const Fake ={
   createArrayWithNumbers,
   generateFakeAbstracts,
   generateFakeMatchPartners,
   generateFakePosters,
   generateFakeMatches,
 };
+export default Fake;
