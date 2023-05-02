@@ -10,7 +10,7 @@ const mediaSizes = {
 };
 
 // ---- FUNCTIONS
-const GrowOverParentPadding = (widthPercent) => css`
+const growOverParentPadding = (widthPercent) => css`
   /* grow over parent's padding in small screen */
   width: ${widthPercent}vw;
   position: relative;
@@ -29,7 +29,7 @@ const GrowOverParentPadding = (widthPercent) => css`
  * @property {function=} extraLarge
  */
 /** @type {mediaQueries} */
-const Media = Object.keys(mediaSizes).reduce((acc, label) => {
+const media = Object.keys(mediaSizes).reduce((acc, label) => {
   if (label === 'extraLarge') {
     acc[label] = (...args) => css`
       @media (min-width: ${mediaSizes[label] / 16}em) {
@@ -47,5 +47,4 @@ const Media = Object.keys(mediaSizes).reduce((acc, label) => {
   return acc;
 }, {});
 
-const Functions = { GrowOverParentPadding, Media };
-export default Functions;
+export default { growOverParentPadding, media };
