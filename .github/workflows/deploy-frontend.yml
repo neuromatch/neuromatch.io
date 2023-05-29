@@ -25,12 +25,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: 18  # Use the version 18 of Node.js
-
+          cache: npm
       - name: Install dependencies
-        run: npm ci
+      - run: npm ci
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
             access-token: ${{ secrets.ACCESS_TOKEN }}
