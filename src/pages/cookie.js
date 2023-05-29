@@ -41,7 +41,7 @@ const StyledTable = styled.table`
   }
 `;
 
-export default () => (
+const Cookie = () => (
   <Layout>
     <CommonPageStyles>
       <h2>COOKIE POLICY</h2>
@@ -376,3 +376,5 @@ export default () => (
     </CommonPageStyles>
   </Layout>
 );
+
+export default Cookie;

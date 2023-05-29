@@ -100,11 +100,11 @@ TopicHeading.propTypes = {
 };
 
 // -- MAIN
-export default () => {
+const JobBoard = () => {
   const { theme } = useThemeContext();
 
   return (
-    <Layout>
+    <Layout> 
       <MainBlock>
         <TitleHeading>Job Board</TitleHeading>
         <section>
@@ -135,3 +135,5 @@ export default () => {
     </Layout>
   );
 };
+
+export default JobBoard;

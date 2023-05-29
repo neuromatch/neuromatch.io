@@ -51,10 +51,11 @@ const scrollBy = (top = 0, left = 0) => {
   }
 }
 
-export default {
+ const Common = {
   encodeBase64,
   decodeBase64,
   flat,
   scrollTo,
   scrollBy,
 };
+export default Common;

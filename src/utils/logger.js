@@ -25,6 +25,7 @@ function error(funcName, msg) {
   throw new Error(`[${funcName}] ${msg}`);
 }
 
-export default {
+ const Logger ={
   warn, log, error,
 };
+export default Logger;

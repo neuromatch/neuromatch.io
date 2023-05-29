@@ -224,7 +224,7 @@ function transparentize(colorString, alpha = 1) {
   });
 }
 
-export default {
+ const Colors = {
   parse,
   format,
   contrast,
@@ -232,3 +232,4 @@ export default {
   transparentize,
   hexFormatter,
 };
+export default Colors;

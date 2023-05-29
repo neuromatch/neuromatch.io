@@ -16,7 +16,7 @@ const BrandFont = styled.span`
   }
 `;
 
-export default () => (
+const TermsOfUse = () => (
   <Layout>
     <CommonPageStyles>
       <h2>Terms and Conditions of Use</h2>
@@ -186,3 +186,5 @@ export default () => (
     </CommonPageStyles>
   </Layout>
 );
+
+export default TermsOfUse;

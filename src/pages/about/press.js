@@ -29,7 +29,7 @@ TopicHeading.propTypes = {
 
 
 // -- MAIN
-export default () => {
+const Press = () => {
 
   return (
     <Layout>
@@ -71,3 +71,5 @@ export default () => {
     </Layout>
   );
 };
+
+export default Press;

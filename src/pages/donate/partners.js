@@ -30,7 +30,7 @@ TopicHeading.propTypes = {
 
 
 // -- MAIN
-export default () => {
+const Partners = () => {
 
   return (
     <Layout>
@@ -44,3 +44,5 @@ export default () => {
     </Layout>
   );
 };
+
+export default Partners;

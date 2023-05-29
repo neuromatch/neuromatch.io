@@ -37,7 +37,8 @@ const deserializeSelectedDatetime = serializedDatetimeString =>
       }, [])
     : []
 
-export default {
+ const TimePickerHelpers ={
   serializeSelectedDatetime,
   deserializeSelectedDatetime,
 }
+export default TimePickerHelpers;

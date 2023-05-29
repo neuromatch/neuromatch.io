@@ -26,9 +26,11 @@ const LockScrollWithVerticalControl = createGlobalStyle`
   }
 `;
 
-export default {
+const globalStylesExport = {
   GlobalStyles,
   LockHorizontalScroll,
   LockVerticalScroll,
   LockScrollWithVerticalControl,
 };
+
+export default globalStylesExport;

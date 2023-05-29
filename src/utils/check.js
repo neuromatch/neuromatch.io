@@ -15,4 +15,4 @@ const isMobile = () => {
   return mobile;
 };
 
-export default { isMobile };
+export default {isMobile} ;

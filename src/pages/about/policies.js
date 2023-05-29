@@ -29,7 +29,7 @@ TopicHeading.propTypes = {
 
 
 // -- MAIN
-export default () => {
+const Policies = () => {
 
   return (
     <Layout>
@@ -84,3 +84,5 @@ export default () => {
     </Layout>
   );
 };
+
+export default Policies;

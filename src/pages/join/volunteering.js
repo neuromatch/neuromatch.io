@@ -100,7 +100,7 @@ TopicHeading.propTypes = {
 };
 
 // -- MAIN
-export default () => {
+const Volunteering = () => {
   const { theme } = useThemeContext();
 
   return (
@@ -139,3 +139,5 @@ export default () => {
     </Layout>
   );
 };
+
+export default Volunteering;
