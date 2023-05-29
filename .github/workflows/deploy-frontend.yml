@@ -24,10 +24,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - name: Set up Node.js 18
-        uses: actions/setup-node@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 'lts/*'  # Use the latest LTS version of Node.js
+          node-version: 18  # Use the version 18 of Node.js
 
       - name: Install dependencies
         run: npm ci
