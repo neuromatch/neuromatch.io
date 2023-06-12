@@ -50,7 +50,7 @@ const Layout = ({
               },
               {
                 text: "People",
-                onClick: "/coming-soon"
+                onClick: "/about/people"
               },
               {
                 text: "Press",
