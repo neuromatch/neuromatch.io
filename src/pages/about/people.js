@@ -38,7 +38,7 @@ const People = () => {
             src="https://airtable.com/embed/shr0hAW3IeWvwBQpj?backgroundColor=green&viewControls=on"
             frameborder="0"
             width="100%"
-            height="533"
+            height="800"
             style={{ background: "transparent", border: "1px solid #ccc" }}
           ></iframe>
 
@@ -48,7 +48,7 @@ const People = () => {
             src="https://airtable.com/embed/shr8nHaTd98S0S8lM?backgroundColor=green&viewControls=on"
             frameborder="0"
             width="100%"
-            height="533"
+            height="800"
             style={{ background: "transparent", border: "1px solid #ccc" }}
           ></iframe>
 
@@ -58,7 +58,7 @@ const People = () => {
             src="https://airtable.com/embed/shriCyqVNJiJt5RUg?backgroundColor=green&viewControls=on"
             frameborder="0"
             width="100%"
-            height="533"
+            height="800"
             style={{ background: "transparent", border: "1px solid #ccc" }}
           ></iframe>
         </section>
