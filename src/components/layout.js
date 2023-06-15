@@ -4,7 +4,7 @@ import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import { initFontAwesome } from '../utils/fontawesome';
 import { Container } from './BaseComponents/container';
-import SEO from './BaseComponents/SEO';
+import Seo  from './BaseComponents/SEO';
 import CookieBanner from './CookieBanner';
 import Footer from './Footer';
 import NavBar from './Navbar';
@@ -35,7 +35,7 @@ const Layout = ({
   children, noPadding, containerStyle, hideFooter,
 }) => (
   <>
-    <SEO />
+    <Seo />
     <FixHorizontalScroll />
     <CookieBanner />
     <StickyFooterWrapper>
@@ -50,7 +50,7 @@ const Layout = ({
               },
               {
                 text: "People",
-                onClick: "/coming-soon"
+                onClick: "/about/people"
               },
               {
                 text: "Press",
