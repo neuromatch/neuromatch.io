@@ -42,7 +42,17 @@ const People = () => {
             style={{ background: "transparent", border: "1px solid #ccc" }}
           ></iframe>
 
-          <h1>NMA Volunteers</h1>
+          <h1>Neuromatch, Inc. Board of Directors</h1>
+          <iframe
+            title="NM-board-of-director"
+            src="https://airtable.com/embed/app32npl2ZlbJvtXK/shrXpw6AbK8UELLoE?backgroundColor=green&viewControls=on"
+            frameborder="0"
+            width="100%"
+            height="800"
+            style={{ background: "transparent", border: "1px solid #ccc;" }}
+          ></iframe>
+
+          <h1>Neuromatch Volunteers</h1>
           <iframe
             title="NMA-volunteers-airtable"
             src="https://airtable.com/embed/shr8nHaTd98S0S8lM?backgroundColor=green&viewControls=on"
