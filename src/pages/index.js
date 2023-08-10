@@ -3,9 +3,9 @@ import React from "react";
 import styled from "styled-components";
 import Layout from "../components/layout";
 import { media } from "../styles";
-//import { useThemeContext } from "../styles/themeContext";
+import { useThemeContext } from "../styles/themeContext";
 
-//// -- CONSTANTS
+// -- CONSTANTS
 //const logos = [
 //  {
 //    key: "academy",
@@ -18,6 +18,28 @@ import { media } from "../styles";
 //    light: "svgs/logos/neuromatch-conference-light.svg"
 //  }
 //];
+const logos = {
+  academy: {
+    url: "academy.neuromatch.io",
+    dark: "svgs/logos/nma-dark.svg",
+    light: "svgs/logos/nma.svg"
+  },
+  community: {
+    url: "conference.neuromatch.io",
+    dark: "svgs/logos/nmc-dark.svg",
+    light: "svgs/logos/nmc.svg"
+  },
+  nmda: {
+    url: "nmda.io",
+    dark: "svgs/logos/nmda-dark.svg",
+    light: "svgs/logos/nmda.svg"
+  },
+  nexus: {
+    url: "scholar.nexus",
+    dark: "svgs/logos/nmop-dark.svg",
+    light: "svgs/logos/nmop.svg"
+  }
+};
 
 // -- COMPONENTS
 const MainBlock = styled.section`
@@ -44,24 +66,24 @@ const SubHeading = styled.h2`
   `}
 `;
 
-const H3Link = styled.a`
-  font-size: 26px;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
-  cursor: pointer;
-  color: ${p => p.theme.colors.secondary};
-
-  &:hover {
-    color: rgba(49,124,173,1);
-    text-decoration: none;
-  }
-
-
-  /* scale according to screen width */
-  ${media.extraSmall`
-    font-size: 4vw;
-  `}
-`;
+// const H3Link = styled.a`
+//   font-size: 26px;
+//   margin-bottom: 1.5rem;
+//   margin-top: 1.5rem;
+//   cursor: pointer;
+//   color: ${p => p.theme.colors.secondary};
+//
+//   &:hover {
+//     color: rgba(49,124,173,1);
+//     text-decoration: none;
+//   }
+//
+//
+//   /* scale according to screen width */
+//   ${media.extraSmall`
+//     font-size: 4vw;
+//   `}
+// `;
 
 const TopicHeading = ({ children }) => <b>{`${children} · `}</b>;
 
@@ -79,14 +101,16 @@ TopicHeading.propTypes = {
 //  `}
 //`;
 //
-//const LogoImage = styled.img`
-//  margin: 2.4rem 0;
-//  width: 300px;
-//`;
+const LogoImage = styled.img`
+ margin-bottom: -50px;
+ margin-top: -50px;
+ width: 275px;
+ /* height: 100px; */
+`;
 
 // -- MAIN
 const Index = () => {
-//  const { theme } = useThemeContext();
+  const { theme } = useThemeContext();
 
   return (
     <Layout>
@@ -101,23 +125,35 @@ const Index = () => {
             We started in neuroscience, and we are branching to other domains, starting with climate science.
           </p>
           <p>What we do:</p>
-          <h3><H3Link href="https://academy.neuromatch.io/" target="_blank"
-          rel="noreferrer">Academy</H3Link></h3>
+          <a href={`https://${logos.academy.url}`} target="_blank" rel="noreferrer">
+            <LogoImage key="academy" src={logos.academy[theme.toLowerCase()]} />
+          </a>
+          {/*          <h3><H3Link href="https://academy.neuromatch.io/" target="_blank"
+          rel="noreferrer">Academy</H3Link></h3> */}
           <p>
             Providing open-source teaching materials and courses with live instruction classrooms for neuro and <a href="https://academy.climatematch.io/" target="_blank" rel="noreferrer">climate</a> science.
           </p>
-          <h3><H3Link href="https://conference.neuromatch.io/" target="_blank"
-          rel="noreferrer">Community</H3Link></h3>
+          <a href={`https://${logos.community.url}`} target="_blank" rel="noreferrer">
+            <LogoImage key="academy" src={logos.community[theme.toLowerCase()]} />
+          </a>
+          {/*<h3><H3Link href="https://conference.neuromatch.io/" target="_blank"
+          rel="noreferrer">Community</H3Link></h3> */}
           <p>
             Connecting scientists to form the social network needed to succeed in conducting and sharing research.
           </p>
-          <h3><H3Link href="https://www.nmda.io/" target="_blank"
-          rel="noreferrer">NMDA</H3Link></h3>
+          <a href={`https://${logos.nmda.url}`} target="_blank" rel="noreferrer">
+            <LogoImage key="academy" src={logos.nmda[theme.toLowerCase()]} />
+          </a>
+          {/*<h3><H3Link href="https://www.nmda.io/" target="_blank"
+          rel="noreferrer">NMDA</H3Link></h3>*/}
           <p>
           Matching people with research, career, and collaboration opportunities.
           </p>
-          <h3><H3Link href="https://www.nmop.io/" target="_blank"
-          rel="noreferrer">Open Publishing</H3Link></h3>
+          <a href={`https://${logos.nexus.url}`} target="_blank" rel="noreferrer">
+            <LogoImage key="academy" src={logos.nexus[theme.toLowerCase()]} />
+          </a>
+          {/*<h3><H3Link href="https://www.nmop.io/" target="_blank"
+          rel="noreferrer">Open Publishing</H3Link></h3>*/}
           <p>
           Reimagining scientific publishing as an equitable system.
           </p>
