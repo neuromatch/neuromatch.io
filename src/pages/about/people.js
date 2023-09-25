@@ -32,44 +32,45 @@ const People = () => {
             and online networking experience in computational neuroscience.
           </p>
 
-          <h1>Neuromatch Staff</h1>
+          <h1 style={{ marginTop: '3rem' }}>Neuromatch Staff</h1>
           <iframe
             title="Staff-airtable"
             src="https://airtable.com/embed/shr0hAW3IeWvwBQpj?backgroundColor=green&viewControls=on"
             frameborder="0"
             width="100%"
-            height="800"
-            style={{ background: "transparent", border: "1px solid #ccc" }}
+            height="400"
+            style={{ background: "transparent" }}
+            sandbox="allow-same-origin allow-scripts"
+            id="myAirtableEmbed"
           ></iframe>
-
-          <h1>Neuromatch, Inc. Board of Directors</h1>
+          <h1 style={{ marginTop: '3rem' }}>Neuromatch, Inc. Board of Directors</h1>
           <iframe
             title="NM-board-of-director"
             src="https://airtable.com/embed/app32npl2ZlbJvtXK/shrXpw6AbK8UELLoE?backgroundColor=green&viewControls=on"
             frameborder="0"
             width="100%"
-            height="800"
-            style={{ background: "transparent", border: "1px solid #ccc;" }}
+            height="750"
+            style={{ background: "transparent" }}
           ></iframe>
 
-          <h1>Neuromatch Volunteers</h1>
+          <h1 style={{ marginTop: '3rem' }}>Neuromatch Volunteers</h1>
           <iframe
             title="NMA-volunteers-airtable"
             src="https://airtable.com/embed/shr8nHaTd98S0S8lM?backgroundColor=green&viewControls=on"
             frameborder="0"
             width="100%"
             height="800"
-            style={{ background: "transparent", border: "1px solid #ccc" }}
+            style={{ background: "transparent", paddingBottom: "-100px" }}
           ></iframe>
 
-          <h1>CMA Volunteers</h1>
+          <h1 style={{ marginTop: '3rem' }}>CMA Volunteers</h1>
           <iframe
             title="CMA-volunteers-airtable"
             src="https://airtable.com/embed/shriCyqVNJiJt5RUg?backgroundColor=green&viewControls=on"
             frameborder="0"
             width="100%"
             height="800"
-            style={{ background: "transparent", border: "1px solid #ccc" }}
+            style={{ background: "transparent" }}
           ></iframe>
         </section>
       </MainBlock>
