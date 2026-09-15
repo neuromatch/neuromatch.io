@@ -9,3 +9,9 @@ export const wrapRootElement = ({ element }) => (
     </ThemeProvider>
   </CookiesProvider>
 );
+
+export const onRenderBody = ({ setHeadComponents }) => {
+  setHeadComponents([
+    <meta key="robots" name="robots" content="noindex, nofollow" />,
+  ]);
+};
