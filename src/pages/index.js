@@ -91,7 +91,7 @@ const Index = () => {
   return (
     <Layout>
       <MainBlock>
-        <TitleHeading>neuromatch</TitleHeading>
+        <TitleHeading>neuromatch (archived)</TitleHeading>
         <SubHeading>Democratizing Science - Connecting People</SubHeading>
         <section>
           <p>
