@@ -33,7 +33,7 @@ jobs:
           cache: 'npm'
           
       - name: Build
-        run: npm run build
+        run: npm ci
 
       - name: Deploy
         if: github.event_name != 'pull_request'
