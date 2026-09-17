@@ -101,25 +101,20 @@ const Index = () => {
             We started in neuroscience, and we are branching to other domains, starting with climate science.
           </p>
           <p>What we do:</p>
-          <h3><H3Link href="https://academy.neuromatch.io/" target="_blank"
-          rel="noreferrer">Academy</H3Link></h3>
+          <h3><H3Link href="https://neuromatch.io/education/" target="_blank"
+          rel="noreferrer">Education & Live Courses</H3Link></h3>
           <p>
-            Providing open-source teaching materials and courses with live instruction classrooms for neuro and <a href="https://academy.climatematch.io/" target="_blank" rel="noreferrer">climate</a> science.
+            Providing open-source teaching materials and courses with live instruction classrooms for computational sciences.
           </p>
-          <h3><H3Link href="https://conference.neuromatch.io/" target="_blank"
-          rel="noreferrer">Community</H3Link></h3>
+          <h3><H3Link href="https://neuromatch.io/professional-development/" target="_blank"
+          rel="noreferrer">Professional Development</H3Link></h3>
           <p>
-            Connecting scientists to form the social network needed to succeed in conducting and sharing research.
+            We offer opportunities in professional development both during our intensive education programs and throughout the rest of the year.
           </p>
-          <h3><H3Link href="https://www.nmda.io/" target="_blank"
-          rel="noreferrer">NMDA</H3Link></h3>
+          <h3><H3Link href="https://neuromatch.io/collaborative-research/" target="_blank"
+          rel="noreferrer">Collaborative Research</H3Link></h3>
           <p>
-          Matching people with research, career, and collaboration opportunities.
-          </p>
-          <h3><H3Link href="https://www.nmop.io/" target="_blank"
-          rel="noreferrer">Open Publishing</H3Link></h3>
-          <p>
-          Reimagining scientific publishing as an equitable system.
+           We facilitate global collaborative research through networking, research cohorts, and partnerships. 
           </p>
         </section>
       </MainBlock>
